@@ -1,0 +1,209 @@
+body {
+  background-image: url("background.png");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#navigation {
+  position: fixed;
+  width: 300px;
+}
+
+#navigation a {
+  width: 200px;
+  background: rgb(15, 128, 62);
+  color: white;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: 1px solid #e5e5e5;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #007421;
+  display: block;
+}
+
+#navigation a:visited {
+  color: white;
+}
+
+#navigation a:hover {
+  color: white;
+  background: #007421;
+  box-shadow: 0 0 5px #21313c;
+  border: none;
+}
+
+#banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: unset;
+}
+
+#scroll-img {
+  width: 60px;
+  height: 60px;
+}
+
+#scroll-button {
+  background-color: transparent;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+.header-row {
+  background: rgb(15, 128, 62);
+}
+.content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding: 10px;
+  border: 5px solid #0b7707;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  margin-bottom: 60px;
+  font-size: 14px;
+}
+
+sup > a {
+  text-decoration: none;
+  font-size: small;
+  color: rgb(15, 128, 62);
+}
+
+h3,
+h4 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p {
+  margin: 0px 3px 2px 3px;
+}
+
+.content p,
+h3,
+h4 {
+  text-indent: 1cm;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.image-title {
+  font-family: inherit;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#important {
+  color: red;
+  font-weight: bold;
+}
+
+.upper-letters {
+  font-weight: bold;
+  font-size: large;
+}
+
+.underline-letters,
+.upper-letters {
+  text-decoration: underline;
+}
+
+.code-images {
+  width: 600px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: unset;
+}
+
+#add-in-collection-images {
+  margin-top: unset;
+  margin-left: unset;
+  width: 600px;
+  height: 180px;
+}
+
+.code-image-title {
+  margin: 10px 0px 30px 20px;
+  font-style: italic;
+}
+
+.literature {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  #navigation {
+    position: unset;
+    margin: 0 auto;
+    font-size: smaller;
+    width: auto;
+  }
+  .code-images {
+    width: 300px;
+  }
+  .content {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #navigation {
+    position: unset;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: smaller;
+    width: auto;
+  }
+  .code-images {
+    width: 100px;
+  }
+  .content {
+    width: auto;
+  }
+}
